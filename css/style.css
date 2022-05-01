@@ -1,0 +1,23 @@
+body{
+    font-family: "Poppins";
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.container-sm{
+    width: 100%;
+    max-width: 945px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
