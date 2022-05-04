@@ -13,7 +13,7 @@ body{
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .clearfix {
@@ -22,19 +22,6 @@ body{
 
 .w50{
     width: 50%;
-    overflow: hidden;
-}
-
-.fl{
-    float: left;
-}
-
-.fr{
-    float: right;
-}
-
-.center{
-    text-align: center;
 }
 
 .logo-wrap{
@@ -201,19 +188,19 @@ input:focus{
 }
 
 .reversible-section{
-    height: 225px;
+    height: 165px;
     width: 100%;
     max-width: 1350px;
     background-size: cover;
     background-position: bottom right;
-    overflow: hidden;
+    overflow: auto;
     margin: 0 auto;
     text-align: center;
 }
 
 div.w50revers{
     width: 50%;
-    max-width: 650px;
+    max-width: 600px;
     height: 225px;
     margin: 0 auto;
     position: relative;
@@ -228,8 +215,7 @@ div.w50revers{
     width: 125px;
     height: 225px;
     float:left;
-    margin-top: 25px;
-    margin-right: 55px;
+    padding: 10px ;
 
 }
 
@@ -241,21 +227,67 @@ div.w50revers{
     text-align: left;
     width: 260px;
     height: 124px;
-    margin-top: 40px;
+    box-sizing: border-box;
+    padding-top: 45px;
 }
 
 .team{
     float: right;
     background: url(../img/background-section2.png);
     background-position: absolute;
+    left: 56%;
+    top: 775px;
+    right: 0px;
     background-repeat: no-repeat;
     background-size: inherit;
     display: block;
+    box-sizing: border-box;
+    overflow: auto;
     position: absolute;
+    color: #ffffff;
     height: 305px;
     width: 600px;
-    left: 55%;
-    top: 735px;
-    right: 0%;
-    
+     
+}
+
+.team-title{
+    text-align: left;
+    left: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    padding: 18px 0px 0px 55px;
+}    
+
+p.text-team-title{
+    font-size: 14px;
+    height: 69px;
+    width: 306px;
+    left: 45px;
+    line-height: 23px;
+    top: 86px;
+    text-align: left;
+    padding: 0px 0px 25px 55px;
+    margin: 0px;
+}
+
+div.team img{
+    width: 200px;
+    float: left;
+    padding-left: 50px;   
+}
+
+div.team button {
+    height: 47px;
+    width: 146px;
+    left: 15px;
+    top: 12px;
+    color: #ffffff;
+    background-color: #2bca8b;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    position: absolute;
+    top: 195px;
+    left: 240px;
 }
