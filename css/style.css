@@ -29,6 +29,11 @@ header{
 .fl{
     float: left;
 }
+
+.fr {
+    float: right;
+}
+
 .clearfix {
     clear: both;
 }
@@ -246,8 +251,8 @@ input:focus{
     text-align: left;
     width: 260px;
     box-sizing: border-box;
-    margin-top: 10px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
 }
 
 .team{
@@ -256,7 +261,7 @@ input:focus{
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    top: 770px;
+    top: -50px;
     right: 0px;
     color: #ffffff;
     width: 440px;
@@ -291,8 +296,6 @@ div.team img{
 div.team button {
     height: 47px;
     width: 146px;
-    left: 15px;
-    top: 12px;
     color: #ffffff;
     background-color: #2bca8b;
     font-weight: 400;
@@ -300,5 +303,146 @@ div.team button {
     border: none;
     position: absolute;
     top: 195px;
-    left: 240px;
+    left: 232px;
+}
+
+.blog-wrapp{
+    overflow: auto;
+    display: flex;
+    margin: 100px 0px;
+}
+
+.blog-title{
+    width: 398px;
+    color: #444444;
+    text-align: left;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 49px;
+    display: block;
+}
+
+.blog-title a {
+    color: #F55F39;
+    text-decoration: underline;
+}
+
+.blog-left{
+    overflow: auto;
+    background: url(../img/photographersWhoChanged.png);
+    width: 530px;
+    height: 635px;
+    float: left;
+    position: relative;
+
+}
+
+.left-text{
+    background: #ffffff;
+    background-size: cover;
+    width: 427px;
+    height: 291px;
+    position: absolute;
+    top: 344px;
+    left: 0px;
+    box-sizing: border-box;
+    z-index: 5;
+
+}
+
+.left-text h2 {
+    width: 315px;
+    height: 110px;
+    color: #252061;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.left-text p {
+    width: 375px;
+    height: 90px;
+    color: #969696;
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.writerRobertBrown {
+    color: #252061;
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 400;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+}
+.writerRobertBrown span{
+    font-size: 13px;
+}
+
+
+
+
+
+.blog-right{
+    
+}
+
+.man-photo{
+    width: 375px;
+}
+.women-photo{
+    width: 375px;
+    height: 240px;
+    position: relative;
+}
+
+.women-text{
+    background: #ffffff;
+    width: 301px;
+    height: 112px;
+    position: absolute;
+    top: 128px;
+    left: 0px;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.women-text span {
+    color: #929292;
+    font-size: 12px;
+    padding: 0px 0px 10px 20px;
+}
+
+.women-text p {
+    height: 70px;
+    width: 210px;
+    font-weight: 400;
+    color: #252061;
+    text-align: left;
+}
+
+.visitFull {
+    overflow: auto;
+    background: url(../img/baground-section4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    color: #ffffff;
+    padding: 45px 0px 0px 60px;
+}
+
+.visitFull h3{
+    font-size: 28px;
+}
+
+.visitFull p{
+    font-size: 14px;
+    line-height: 23px;
+    height: 45px;
+    width: 210px;
+}
+
+.visitFull a {
+    color: #F55F39;
+    text-decoration: none;
 }
