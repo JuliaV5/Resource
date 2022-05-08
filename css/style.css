@@ -330,10 +330,12 @@ div.team button {
 .blog-left{
     overflow: auto;
     background: url(../img/photographersWhoChanged.png);
+    background-repeat: no-repeat;
     width: 530px;
     height: 635px;
     float: left;
     position: relative;
+    padding: 30px;
 
 }
 
@@ -341,9 +343,9 @@ div.team button {
     background: #ffffff;
     background-size: cover;
     width: 427px;
-    height: 291px;
+    height: 300px;
     position: absolute;
-    top: 344px;
+    top: 375px;
     left: 0px;
     box-sizing: border-box;
     z-index: 5;
@@ -352,16 +354,15 @@ div.team button {
 
 .left-text h2 {
     width: 315px;
-    height: 110px;
+    height: 100px;
     color: #252061;
     font-size: 30px;
     box-sizing: border-box;
 }
 .left-text p {
-    width: 375px;
-    height: 90px;
+    width: 370px;
+    height: 60px;
     color: #969696;
-    line-height: 23px;
     font-size: 14px;
 }
 
@@ -370,29 +371,31 @@ div.team button {
     font-size: 15px;
     line-height: 23px;
     font-weight: 400;
-    width: 150px;
-    height: 50px;
+    width: 220px;
+    height: 70px;
     box-sizing: border-box;
 }
+
+.writerRobertBrown p{
+    width: auto;
+    max-height: 20px;
+}
+
 .writerRobertBrown span{
-    font-size: 13px;
+    clear: both;
+    font-size: 13px;  
 }
 
-
-
-
-
-.blog-right{
-    
-}
 
 .man-photo{
     width: 375px;
+    padding-bottom: 30px;
 }
 .women-photo{
     width: 375px;
     height: 240px;
     position: relative;
+    padding-bottom: 30px;
 }
 
 .women-text{
