@@ -310,16 +310,21 @@ div.team button {
     overflow: auto;
     display: flex;
     margin: 100px 0px;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .blog-title{
-    width: 398px;
+    width: 600px;
     color: #444444;
     text-align: left;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 42px;
     line-height: 49px;
     display: block;
+    align-items: center;
+    justify-content: center;
 }
 
 .blog-title a {
@@ -336,7 +341,7 @@ div.team button {
     float: left;
     position: relative;
     padding: 30px;
-
+    
 }
 
 .left-text{
@@ -372,12 +377,12 @@ div.team button {
     line-height: 23px;
     font-weight: 400;
     width: 220px;
-    height: 70px;
+    height: 80px;
     box-sizing: border-box;
 }
 
 .writerRobertBrown p{
-    width: auto;
+    
     max-height: 20px;
 }
 
