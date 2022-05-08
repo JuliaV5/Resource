@@ -2,26 +2,49 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    z-index: 10;
+}
+
 .container{
     width: 100%;
-    max-width: 1350px;
+    max-width: 1210px;
     margin: 0 auto;
     overflow: auto;
 }
 
 .container-sm{
     width: 100%;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1110px;
     overflow: auto;
+    margin: 0 auto;
+    display: block;
 }
 
+.fl{
+    float: left;
+}
 .clearfix {
     clear: both;
 }
 
 .w50{
     width: 50%;
+    overflow: auto;
+}
+
+.menu{
+    overflow: auto;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 0px;
 }
 
 .logo-wrap{
@@ -30,37 +53,41 @@ body{
     width: 150px;
     padding: 13px 0px;
     float: left;
-}
-
-nav ul li{
-    float: left;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-top: 15px;
-}
-
-.header-form{
-    float: right;
-    max-width: 390px;
-    width: 100%;
-    margin-top: 15px;
-    margin-right: 100px;
+    position: absolute;
+    left: calc(50% - 75px);
+    top: 0px;
 }
 
 nav{
-    overflow: hidden;
-    width: 526px;
-    float: left;
-    margin-left: 100px;
+    max-width: 540px;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-right: 15px;
 }
 
 nav li a{
     color: #222222;
     text-decoration: none;
     letter-spacing: 1px;
-    margin-right: 30px;
     font-size: 12px;
+}
+
+.header-form{
+    max-width: 390px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
 }
 
 .header-form button{
@@ -96,13 +123,11 @@ input:focus{
 
 .header-form label {
     border: 2px solid #e0e0e0;
-    height: 38px;
-    display: block;
-    float: left;
     width: 100%;
-    max-width: 251px;
+    max-width: 253px;
     border-radius: 2px 0px 0px 2px;
     position: relative;
+    
 }
 
 .header-form label::before{
@@ -125,6 +150,7 @@ input:focus{
     background-size: cover;
     background-position: bottom right; 
     color: #444;
+    min-height: 100vh;
 }
 
 .welcome-section h1{
@@ -188,24 +214,19 @@ input:focus{
 }
 
 .reversible-section{
-    height: 165px;
+    background: #ffffff;
+    display: block;
     width: 100%;
-    max-width: 1350px;
-    background-size: cover;
-    background-position: bottom right;
-    overflow: auto;
-    margin: 0 auto;
-    text-align: center;
-}
-
-div.w50revers{
-    width: 50%;
-    max-width: 600px;
-    height: 225px;
-    margin: 0 auto;
+    max-width: 1440px;
+    padding: 50px 0px;
     position: relative;
+    margin: 0 auto;
 }
 
+.team-wrapp{
+    overflow: auto;
+    display: flex;
+}
 .reversible-h3{
     color:#2bcabb;
     font-weight: 400;
@@ -213,9 +234,7 @@ div.w50revers{
     line-height: 39px;
     text-align: left;
     width: 125px;
-    height: 225px;
     float:left;
-    padding: 10px ;
 
 }
 
@@ -226,27 +245,22 @@ div.w50revers{
     font-weight: 400;
     text-align: left;
     width: 260px;
-    height: 124px;
     box-sizing: border-box;
-    padding-top: 45px;
+    margin-top: 10px;
+    margin-left: 30px;
 }
 
 .team{
-    float: right;
+    
     background: url(../img/background-section2.png);
-    background-position: absolute;
-    left: 56%;
-    top: 775px;
-    right: 0px;
     background-repeat: no-repeat;
-    background-size: inherit;
-    display: block;
-    box-sizing: border-box;
-    overflow: auto;
+    background-size: cover;
     position: absolute;
+    top: 770px;
+    right: 0px;
     color: #ffffff;
-    height: 305px;
-    width: 600px;
+    width: 440px;
+    padding: 40px 55px;
      
 }
 
@@ -256,7 +270,6 @@ div.w50revers{
     font-weight: 400;
     font-size: 24px;
     line-height: 23px;
-    padding: 18px 0px 0px 55px;
 }    
 
 p.text-team-title{
@@ -267,14 +280,12 @@ p.text-team-title{
     line-height: 23px;
     top: 86px;
     text-align: left;
-    padding: 0px 0px 25px 55px;
     margin: 0px;
 }
 
 div.team img{
-    width: 200px;
-    float: left;
-    padding-left: 50px;   
+    width: 185px;
+    float: left;  
 }
 
 div.team button {
