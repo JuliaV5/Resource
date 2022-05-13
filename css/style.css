@@ -310,7 +310,6 @@ div.team button {
     overflow: auto;
     display: flex;
     margin: 100px 0px;
-    align-items: center;
     justify-content: center;
     
 }
@@ -321,7 +320,6 @@ div.team button {
     text-align: left;
     font-weight: 400;
     font-size: 42px;
-    line-height: 49px;
     display: block;
     align-items: center;
     justify-content: center;
@@ -329,7 +327,9 @@ div.team button {
 
 .blog-title a {
     color: #F55F39;
-    text-decoration: underline;
+    text-decoration: none;
+    line-height: 49px;
+    border-bottom: 5px #F55F39 solid;
 }
 
 .blog-left{
@@ -338,7 +338,6 @@ div.team button {
     background-repeat: no-repeat;
     width: 530px;
     height: 635px;
-    float: left;
     position: relative;
     padding: 30px;
     
@@ -348,27 +347,26 @@ div.team button {
     background: #ffffff;
     background-size: cover;
     width: 427px;
-    height: 300px;
+    height: 315px;
     position: absolute;
-    top: 375px;
+    bottom: 5px;
     left: 0px;
     box-sizing: border-box;
     z-index: 5;
-
 }
 
 .left-text h2 {
-    width: 315px;
-    height: 100px;
+    width: 320px;
     color: #252061;
     font-size: 30px;
-    box-sizing: border-box;
+    line-height: 38px;
 }
+
 .left-text p {
     width: 370px;
-    height: 60px;
     color: #969696;
     font-size: 14px;
+    line-height: 23px;
 }
 
 .writerRobertBrown {
@@ -377,20 +375,17 @@ div.team button {
     line-height: 23px;
     font-weight: 400;
     width: 220px;
-    height: 80px;
-    box-sizing: border-box;
+    margin-top: 15px;
 }
 
-.writerRobertBrown p{
-    
-    max-height: 20px;
+.writerRobertBrown img{
+    margin-right: 10px;
 }
 
 .writerRobertBrown span{
     clear: both;
     font-size: 13px;  
 }
-
 
 .man-photo{
     width: 375px;
